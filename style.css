@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+body {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    color:rgb(45, 35, 110);
+}
+p {
+   font-size: 32pt;
+}
+
+#name {
+    font-size: 40pt;
+    color: rgb(6, 54, 54);
+    background-color: blanchedalmond;
+    padding: 20px 20px 50px 100px;
+    margin: 20px 100px 20px 100px;
+}
+.name {
+    font-size: 28pt;
+    color: rgb(255, 32, 32);
+}
+
+p.text {
+    font-size: 12pt;
+    color: rgb(77, 29, 29);
+}
+
+
+
+
+
+
+
+.btn {
+    background-color: rgb(105, 59, 26);
+    color: rgb(242, 249, 255);
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    border: rgb(6, 54, 54) solid 2px;
+}
+.btn:hover {
+    background-color: rgb(53, 94, 129);
+    color: rgb(180, 132, 70);
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    border: rgb(34, 165, 165) solid 2px;
+}
+.btn:active {
+    background-color: rgb(53, 94, 129);
+    color: rgb(180, 132, 70);
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    border: rgb(34, 165, 165) solid 2px;
+}
+
+.inline {
+    display: inline;
+    background-color: rgb(235, 216, 191);
+    padding: 20px;
+    margin-right: 5px;
+}
+.box {
+    background-color: rgb(255, 208, 147);
+    padding: 20px;
+    margin-right: 5px;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    row-gap: 10px;
+}   
